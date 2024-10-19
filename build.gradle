@@ -10,6 +10,19 @@ repositories {
 }
 
 dependencies {
+    // Jakarta
+    implementation 'jakarta.persistence:jakarta.persistence-api:3.2.0'
+
+    // Postgres
+    implementation 'org.postgresql:postgresql:42.7.4'
+
+    // Hibernate
+    implementation 'org.hibernate.orm:hibernate-core:6.6.1.Final'
+
+    // Lombok
+    compileOnly 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
 }

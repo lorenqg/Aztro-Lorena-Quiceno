@@ -6,32 +6,11 @@
         <class>org.example.models.prestamo.Libro</class>
         <class>org.example.models.prestamo.Prestamo</class>
 
-        <class>org.example.models.supermercado.Cliente</class>
-        <class>org.example.models.supermercado.Marca</class>
-        <class>org.example.models.supermercado.Producto</class>
-        <class>org.example.models.supermercado.Compra</class>
-
-
-        <class>org.example.models.empleado.Departamento</class>
-        <class>org.example.models.empleado.Empleado</class>
-        <class>org.example.models.empleado.Proyecto</class>
-
-<!--        <class>org.example.models.curso.Profesor</class>-->
-<!--        <class>org.example.models.curso.Curso</class>-->
-<!--        <class>org.example.models.curso.Estudiante</class>-->
-
-
-<!--        <class>org.example.models.medicamento.Medicamento</class>-->
-<!--        <class>org.example.models.medicamento.Sucursal</class>-->
-<!--        <class>org.example.models.medicamento.Medico</class>-->
-<!--        <class>org.example.models.medicamento.Paciente</class>-->
-<!--        <class>org.example.models.medicamento.Venta</class>-->
-
-<!--        <class>org.example.models.cita.Medicos</class>-->
-<!--        <class>org.example.models.cita.Pacientes</class>-->
-<!--        <class>org.example.models.cita.Citas</class>-->
-
-
+        <class>org.example.models.medicamento.Medicamento</class>
+        <class>org.example.models.medicamento.Sucursal</class>
+        <class>org.example.models.medicamento.Medico</class>
+        <class>org.example.models.medicamento.Paciente</class>
+        <class>org.example.models.medicamento.Venta</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver"
